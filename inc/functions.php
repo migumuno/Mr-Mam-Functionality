@@ -66,3 +66,17 @@ function mr_mam_get_some_posts($num = 4, $type = 'post') {
 
     return $res;
 }
+
+/**
+ * Función que devuelve los terms
+ */
+function mr_mam_get_terms( $term = 'category' ) {
+    $terms = get_terms( array(
+        'taxonomy'      =>  $term,
+        'hide_empty'    =>  true,
+        'orderby'       =>  'name',
+        'order'         =>  'ASC'
+    ) );
+
+    return $terms;
+}
