@@ -77,7 +77,6 @@ function mr_mam_get_terms( $term = 'category' ) {
         'orderby'       =>  'name',
         'order'         =>  'ASC'
     ) );
-    print_r($terms);
 
     return $terms;
 }
