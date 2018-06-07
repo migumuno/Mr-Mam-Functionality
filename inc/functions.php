@@ -44,12 +44,10 @@ function mr_mam_get_some_posts($num = 4, $type = 'post') {
 
         while ( $my_query->have_posts() ) {
             $my_query->the_post();
-            for ($i=0; $i < $num; $i++) { 
-                $html .= '<div class="mr-mam-blog-posts__post '.$class.'">
-                    '.get_the_post_thumbnail().'
-                    <h3><a href="'.get_permalink().'">'.get_the_title().'</a></h3>
-                </div>';
-            }
+            $html .= '<div class="mr-mam-blog-posts__post '.$class.'">
+                '.get_the_post_thumbnail().'
+                <h3><a href="'.get_permalink().'">'.get_the_title().'</a></h3>
+            </div>';
         }
         
         $html .= '</div>';
