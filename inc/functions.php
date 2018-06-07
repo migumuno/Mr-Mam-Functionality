@@ -56,10 +56,10 @@ function mr_mam_get_some_posts($num = 4, $type = 'post') {
         $html .= '</div>';
 
         // Respuesta
-        $res['succeed'] = true;
+        $res['success'] = true;
     } else {
         // Respuesta
-        $res['succeed'] = false;
+        $res['success'] = false;
     }
 
     // Restore original Post Data
