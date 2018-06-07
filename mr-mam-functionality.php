@@ -14,4 +14,5 @@
 
 if( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
+include_once('inc/functions.php');
 include_once('inc/shortcodes.php');
