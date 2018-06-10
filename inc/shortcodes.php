@@ -39,4 +39,4 @@ function mr_mam_formas_contacto() {
 
     return $html;
 }
-add_shortcode( 'formas_contacto', 'mr_mam_formas_contacto' );
+add_shortcode( 'mr_mam_formas_contacto', 'mr_mam_formas_contacto' );
