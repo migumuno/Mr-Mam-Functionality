@@ -34,6 +34,8 @@ function mr_mam_formas_contacto() {
         <li class="welcome-icons_list"><a href="https://www.linkedin.com/in/miguelangelmunozviejo/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
         <li class="welcome-icons_list"><a href="https://twitter.com/mrmam_code" target="_blank"><i class="fab fa-twitter"></i></a></li>
         <li class="welcome-icons_list"><a href="'.get_stylesheet_directory_uri().'/docs/cv.pdf" download target="_blank"><i class="fas fa-file-alt"></i></a></li>
+        <li class="welcome-icons_list"><a href="https://github.com/migumuno" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li class="welcome-icons_list"><a href="https://gitlab.com/users/mistermam/snippets" target="_blank"><i class="fab fa-gitlab"></i></a></li>
     </ul>
     ';
 
